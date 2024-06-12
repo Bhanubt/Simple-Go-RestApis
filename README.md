@@ -20,5 +20,4 @@ This is a simple REST API built with Go (Golang). It demonstrates basic Create, 
 ```bash
 git clone https://github.com/yourusername/simple-go-restapi.git
 cd simple-go-restapi
-for running the program
-go run main.go 
+go run main.go
