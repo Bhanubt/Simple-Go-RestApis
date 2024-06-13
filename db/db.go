@@ -18,7 +18,9 @@ func Connect() {
 	if err != nil {
 		panic("Cannot Create Database")
 	}
-
+	
+//setting the connections
+	
 	DB.SetMaxOpenConns(10)
 	DB.SetMaxIdleConns(5)
 	createAgenciesTable()
